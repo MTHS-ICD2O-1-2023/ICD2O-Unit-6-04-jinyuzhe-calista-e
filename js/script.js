@@ -13,8 +13,6 @@ window.onload = function () {
 
   // input
   const radius = params.get('radius')
-  const bBase = params.get('bBase')
-  const height = params.get('height')
   console.log(radius)
 
   // process

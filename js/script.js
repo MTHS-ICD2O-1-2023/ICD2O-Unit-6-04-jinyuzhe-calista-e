@@ -22,5 +22,5 @@ window.onload = function () {
 
   // output
   document.getElementById('dimensions').innerHTML = dimensions
-  document.getElementById('volume').innerHTML = 'Volume is: ' + volume + ' mm³'
+  document.getElementById('volume').innerHTML = 'Volume is: ' + volume.toFixed(2) + ' mm³'
 }
